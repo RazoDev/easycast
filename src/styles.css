@@ -60,6 +60,10 @@ p {
   font-weight: 200;
   letter-spacing: 1px;
 }
+.navbar-brand>img{
+  width: 70%;
+  max-width: 170px;
+}
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
   color: #222222;
@@ -99,11 +103,18 @@ p {
 .imagen-header{
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .header-content{
   position: absolute;
-  top: 300px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: 30%;
+	margin: auto;
 }
 .header-content-inner > h1 {
   font-family: 'Roboto', serif;
@@ -137,7 +148,6 @@ p {
 }
 .header-content-inner > a{
   width: 150px;
-  margin-right: 1em;
 }
 .header-content-inner > .mas{
   width: 150px;
@@ -148,7 +158,6 @@ p {
 
 
 .features{
-
 background: grey;
 width: 100%;
 height: 100vh;
@@ -168,6 +177,17 @@ background-size: cover;
   display: block;
   margin: 25px auto;
 }
+.stream{
+  margin-top: 2em;
+}
+.stream h4{
+  color: white;
+  font-size: 1.5em;
+
+}
+.stream h2{
+  color: white;
+}
 .soluciones li{
   list-style-type: none;
   padding: 4em 2em;
@@ -181,7 +201,18 @@ background-size: cover;
   width: 100%;
   height: 100vh;
 }
-
+.screen{
+  background: grey;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/img/header-img.jpg);
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 form {
   width: 100%;
   margin: 10% auto;
@@ -285,5 +316,17 @@ textarea {
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: grey;
+  }
+}
+@media (max-width: 480px) {
+  .header-content{
+    width: 100%;
+  }
+  .header-content h1{
+    font-size: 28px;
+  }
+
+  .about img{
+    width: 200px;
   }
 }
