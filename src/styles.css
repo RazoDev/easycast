@@ -45,6 +45,9 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
 }
+h4{
+  font-size:3em!important;
+}
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -303,7 +306,9 @@ textarea {
 .info-contact ul li{
   list-style-type: none;
   padding: .5em 0;
-  color: #8F8F8F;
+  color: black;
+  font-size: 1.5em;
+
 }
 .info-contact ul li b{
   color: #8F8F8F;
@@ -378,6 +383,9 @@ textarea {
   }
 }
 @media (max-width: 480px) {
+  h4{
+    font-size:1.7em!important;
+  }
   .video{
 
   }
