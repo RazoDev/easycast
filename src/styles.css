@@ -50,6 +50,9 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+ul{
+  padding: 0;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -168,9 +171,9 @@ p {
 background: grey;
 width: 100%;
 height: 100vh;
-background-image: url(./assets/img/img-seccion-3.jpg);
+background-image: url(./assets/img/header-img.jpg);
 background-repeat: no-repeat;
-/*background-attachment: fixed;*/
+background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -295,17 +298,28 @@ textarea {
   margin-top: 60px;
 }
 .info-contact h3{
-  color: #fcfcfc;
+  color: #8F8F8F;
 }
 .info-contact ul li{
   list-style-type: none;
   padding: .5em 0;
+  color: #8F8F8F;
 }
 .info-contact ul li b{
-  color: #c6c6c6;
+  color: #8F8F8F;
 }
 
-
+.container-footer{
+  background: white;
+}
+.container-footer h3{
+  color: #8F8F8F;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+}
+.container-footer .info{
+  font-size: 20px;
+}
 
 
 
